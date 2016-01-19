@@ -9,7 +9,7 @@ if exists("b:current_syntax")
 endif
 
 " title (all caps followed by a newline)
-syn match notesTitle '\v^[A-Z 0-9()-]{2,}$'
+syn match notesTitle '\v^[A-Z 0-9()-,]{2,}$'
 " lecture number
 syn match notesLecture '\v^Lecture \d+$'
 " lecture date
@@ -29,6 +29,7 @@ syn region notesHilite start='\v\*[^\*]' end='\v\*'
 "list
 syn match notesList '\v\s*\d+\.'
 " make a code block one! (folding)
+syn region notesCode start='\v\/\*' end='\v\*\/'
 
 let b:current_syntax = "notes"
 
@@ -42,4 +43,5 @@ highlight link notesHead2		Underlined
 highlight link notesHead3		Identifier
 highlight link notesImportant 	Search
 highlight link notesHilite		SpellBad
-highlight link notesList		Statement	
+highlight link notesList		Statement
+highlight link notesCode		Statement
