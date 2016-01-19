@@ -18,12 +18,12 @@ I personally use the [solarized-dark](https://github.com/altercation/vim-colors-
 ## Syntax
 
 If you want the nitty gritty, you can dig through `syntax/notes.vim`.  Otherwise:
-1. ALL CAPS (and a few different symbols) highlights in bold.  Useful for the title line.
-2. Lecture X, where X is a number will highlight.
-3. Date: XXXX will highlight
-4. Lines starting with '# ' will highlight.  I personally use these to list the topics covered in that lecture.
-4. Lines preceded with >, >>, or >>> will highlight in different colors (primary, secondary, and tertiary headings)
-5. Lists (1. 2. 3. etc) will highlight the numbers
-6. Anything encased in *'s will be underlined
-7. Anything encased in **'s will be highlighted and blocked in a wonderfully obnoxious yellow
-8. Code blocks (or any other sort of block where you want the whole thing to stand out) can be encased in /* and */
+  - ALL CAPS (and a few different symbols) highlights in bold.  Useful for the title line.
+  - Lecture X, where X is a number will highlight.
+  - Date: XXXX will highlight
+  - Lines starting with '# ' will highlight.  I personally use these to list the topics covered in that lecture.
+  - Lines preceded with >, >>, or >>> will highlight in different colors (primary, secondary, and tertiary headings)
+  - Lists (1. 2. 3. etc) will highlight the numbers
+  - Anything encased in *'s will be underlined
+  - Anything encased in **'s will be highlighted and blocked in a wonderfully obnoxious yellow
+  - Code blocks (or any other sort of block where you want the whole thing to stand out) can be encased in /* and */
