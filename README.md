@@ -27,3 +27,8 @@ If you want the nitty gritty, you can dig through `syntax/notes.vim`.  Otherwise
   - Anything encased in *'s will be underlined
   - Anything encased in **'s will be highlighted and blocked in a wonderfully obnoxious yellow
   - Code blocks (or any other sort of block where you want the whole thing to stand out) can be encased in /* and */
+
+## Usage
+
+If you've done all that, things should just start working!
+Just make sure your files have the `.notes` extension.
