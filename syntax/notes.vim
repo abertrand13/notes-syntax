@@ -9,7 +9,7 @@ if exists("b:current_syntax")
 endif
 
 " title (all caps followed by a newline)
-syn match notesTitle '\v^[A-Z 0-9()-,:;/.\|']{2,}$'
+syn match notesTitle '\v^[A-Z 0-9()-?&",:;/.\|']{2,}$'
 " lecture number
 syn match notesLecture '\v^Lecture \d+$'
 " lecture date
